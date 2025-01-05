@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Valentine's Day, [Her Name]!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Happy Valentine's Day, [My Riri]!</h1>
+            <p>Welcome to a special page just for you ❤️</p>
+        </header>
+
+        <section class="our-story">
+            <h2>Our Story</h2>
+            <p>It all started on [Date]. Here's a look back at some of our favorite moments together!</p>
+            <div class="gallery">
+                <img src=""C:\Users\User\Downloads\f4d918ab-5506-48db-b15b-a252e23cd558.jpg"" alt="Memory 1">
+                <img src=""C:\Users\User\Downloads\1ddb7571-bcd1-43f9-9fdc-7b1a6e2bdbc9.jpg"" alt="Memory 2">
+                <img src=""C:\Users\User\Downloads\f3df52ce-1bed-409e-af84-cc62ce060434.jpg"" alt="Memory 3">
+            </div>
+        </section>
+
+        <section class="love-letter">
+            <h2>A Special Message for You</h2>
+            <p>Dearest [Her Name],</p>
+            <p>You are my everything. Every moment with you feels like a beautiful dream, and I am so thankful for all the love we share. I love you with all my heart ❤️</p>
+            <p>Yours forever, [Your Name]</p>
+        </section>
+
+        <section class="interactive">
+            <h2>Let's Play a Little Game!</h2>
+            <p>What is our favorite movie together?</p>
+            <input type="text" id="quiz-answer" placeholder="Enter your answer...">
+            <button onclick="checkAnswer()">Submit</button>
+            <p id="quiz-result"></p>
+        </section>
+
+        <footer>
+            <p>With all my love 💖</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
